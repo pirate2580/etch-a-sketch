@@ -1,0 +1,16 @@
+#screen{
+  display: flex;
+}
+
+#container{
+  display: grid;
+  
+  grid-template-rows: repeat(16,10px);
+  grid-template-columns: repeat(16,10px);
+}
+
+.square{
+  /*margin: 0.1rem;*/
+  background-color: white;
+  border: 1px solid black;
+}
